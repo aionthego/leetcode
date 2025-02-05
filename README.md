@@ -5,7 +5,7 @@
  Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 
  It is implemented by simplifying the Knuth–Morris–Pratt algorithm.
- ,,,
+ ```
  move forward with haystack
  if haystack[index] matches with the first character of the needle
      then check for the full needle match
@@ -16,4 +16,4 @@
  else move forward with haystack
 
  if you reach the end, process the result
- ,,,
+ ```
