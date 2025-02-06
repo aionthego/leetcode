@@ -1,6 +1,22 @@
 # leetcode
  let us simplify the leet code problems
 
+ ## 4. Median of two sorted arrays
+ Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+
+ It is implemented by merging two arrays
+ ```
+ merge the first array; iterate the second array
+ if nums2[index] greater than the last elelment of merged
+     then append
+ else iterate through merged
+     find the correct location for the insert
+
+ after the merge, find the median
+ if odd, the median is the middle number
+ if even, find the middle two numbers and get the average of them
+ ```
+
  ## 28. Find the Index of the First Occurrence in a String
  Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 
